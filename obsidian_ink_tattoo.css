@@ -1,0 +1,96 @@
+body{
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(114, 104, 104);
+}
+
+.spider{
+    width: 90px;
+    height: auto;
+    margin-top: 25px;
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.button-nav{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.text{
+    border-radius: 60px;
+    background-color: rgb(65, 12, 114);
+}
+
+.pagina-principala{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+h1{
+    font-size: 80px;
+    color: white;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pagina-principala-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.pagina-principala-items img{
+    width: 500px;
+    height: auto;
+}
+
+.social-networks{
+    background-color: #8f19e9ff;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius:80px;
+}
+
+.networks-description img{
+   width:120px;
+   height:120px;
+   margin-right: 120px;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    border-top: 1px solid #ccc;
+}
