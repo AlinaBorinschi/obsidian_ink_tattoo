@@ -14,12 +14,6 @@ nav {
     color: rgb(114, 104, 104);
 }
 
-.spider{
-    width: 90px;
-    height: auto;
-    margin-top: 25px;
-}
-
 nav a{
     color:rgb(255, 255, 255);
     text-decoration: none;
@@ -51,6 +45,7 @@ h1{
     color: white;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
 }
 
 .pagina-principala-items{
@@ -66,8 +61,8 @@ h1{
 }
 
 .social-networks{
-    background-color: #8f19e9ff;
-    padding: 40px 100px;
+    background-color:rgb(65, 12, 114);
+    padding: 20px 60px;
     display: flex;
     justify-content: center;
     align-items: center;

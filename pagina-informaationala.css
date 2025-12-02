@@ -14,12 +14,6 @@ nav {
     color: rgb(114, 104, 104);
 }
 
-.spider{
-    width: 90px;
-    height: auto;
-    margin-top: 25px;
-}
-
 nav a{
     color:rgb(255, 255, 255);
     text-decoration: none;
@@ -43,6 +37,12 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.artticle {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
 .information-left{
     background-color: #8f19e9ff;
     padding: 10px 20px;
@@ -51,7 +51,6 @@ h1{
     align-items: left;
     text-align: left;
     margin-left: 20px;
-    margin-right: 1000px;
     border-radius: 60px;
 }
 
@@ -67,7 +66,6 @@ h1{
     justify-content: right;
     align-items: right;
     text-align: right;
-    margin-left: 1000px;
     margin-right: 20px;
     border-radius: 60px;
 }
@@ -76,4 +74,61 @@ h1{
    font-size: 20px;
    text-align: left;
 }
+
+.artticle2{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    margin: 50px;
+}
+
+.information-center{
+    background-color: #8f19e9ff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 60px;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-description-center{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.image-description-final{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    margin: 50px;
+}
+
+.image-none{
+    background-color: rgb(88, 86, 86);
+    border-radius: 80px;
+}
  
+.image-description-none{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    border-top: 1px solid #ccc;
+}
