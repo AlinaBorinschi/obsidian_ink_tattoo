@@ -1,18 +1,21 @@
 body{
-    background-color: #000000;
+  
     background: url(Photo/eye.png);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     color: white;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
 }
 
-nav {
+/* nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: rgb(114, 104, 104);
+    color: rgb(255, 255, 255);
 }
 
 nav a{
@@ -41,4 +44,82 @@ h1{
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
+} */
+
+/* .section .login{
+    background: url(Photo/eye.png);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(3, 3, 3);
+    font-family: Arial, sans-serif; 
+     position: center;
+} */
+
+.login{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: max-content;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    position: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+input[type="text"]{
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: aliceblue;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    color: rgb(0, 0, 0);    
+}
+
+input[type="submit"]{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.parrafos{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+#signup{
+    color: blue;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#boton{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: black;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
 }
