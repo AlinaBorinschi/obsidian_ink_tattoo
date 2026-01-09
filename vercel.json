@@ -1,0 +1,3 @@
+{
+    "routes": [{ "src": "/", "dest": "/obsidian_ink_tattoo.html" }]
+}
