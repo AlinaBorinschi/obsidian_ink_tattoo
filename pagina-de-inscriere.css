@@ -1,5 +1,11 @@
+/* .button-body{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 40px;
+} */
 body{
-  
     background: url(Photo/eye.png);
     background-position: center;
     display: flex;
@@ -10,7 +16,7 @@ body{
     font-family: Arial, sans-serif;
 }
 
-/* nav {
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -44,9 +50,9 @@ h1{
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
-} */
+}
 
-/* .section .login{
+.section .login{
     background: url(Photo/eye.png);
     background-position: center;
     display: flex;
@@ -56,7 +62,7 @@ h1{
     color: rgb(3, 3, 3);
     font-family: Arial, sans-serif; 
      position: center;
-} */
+} 
 
 .login{
     background-color: rgba(0, 0, 0, 0.7);

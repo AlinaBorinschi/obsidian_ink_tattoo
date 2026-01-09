@@ -1,0 +1,50 @@
+body{
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(114, 104, 104);
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.button-nav{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+h1{
+    font-size: 80px;
+    background-color: blueviolet;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-form p{
+    font-size: 80px;
+    background-color: blueviolet;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
