@@ -51,18 +51,17 @@ h1{
 }
 
 .grid-container{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px;
-    gap: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item{
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 50px;
     margin: 50px;
-    width: 300px;
+    width: 150px;
     height: 300px;
  }
 
@@ -87,18 +86,31 @@ h1{
 .item-real{
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    margin: 50px;
-    width: 300px;
+    gap: 50px;
+    margin: 0px 50px;
+    width: 120px;
     height: 300px;
  }
 
 .item-real img{
-    width: 400px;
-    height: 400px;
     border-radius: 70px;
-    gap: 200px;
 }
+
+/* .item-real-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    margin: 50px;
+    width: 150px;
+    height: 300px;
+ }
+
+.item-real-container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 70px;
+} */
 
 .tattoo-creativ{
     display: flex;
@@ -114,17 +126,15 @@ h1{
 .item-creativ{
     display: flex;
     flex-direction: row;
-    gap: 100px;
-    margin: 50px;
-    width: 300px;
+    gap: 50px;
+    margin: 0px 90px;
+    width: 120px;
     height: 300px;
  }
 
 .item-creativ img{
-    width: 400px;
-    height: 400px;
     border-radius: 100px;
-    gap: 100px;
+
 }
 
 .tattoo-video{
